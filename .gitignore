@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/
+
+# Large datasets and model artifacts - too big for git
+data/
+data.zip
+models/
+models - checkpoint 96/
+*.zip
+
+# Generated at runtime by the app
+app/animation.gif
+app/test_video.mp4
